@@ -47,6 +47,8 @@ function calculateIRPF() {
   // Calcula a alíquota efetiva usando o salário e o impostoDevido
   const aliquotaEfetiva = calcularAliquota(renda, impostoDevido);
 
+  output.style.backgroundColor = "#ffccf2";
+  output.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.1)";
   // Atualiza a saída com os valores calculados
   output.innerHTML = `<b>Imposto a pagar será de:</b> R$ ${impostoDevido.toFixed(
     2
