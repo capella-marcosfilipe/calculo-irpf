@@ -1,3 +1,5 @@
+// Marcos Filipe Capella - PPW - UNICAP
+
 function calcularAliquota(salario, impostoDevido) {
   return (impostoDevido / salario) * 100;
 }
@@ -46,6 +48,10 @@ function calculateIRPF() {
   const aliquotaEfetiva = calcularAliquota(renda, impostoDevido);
 
   // Atualiza a saída com os valores calculados
-  output.innerHTML = `Imposto a pagar será de: R$ ${impostoDevido.toFixed(2)}<br>
-                        Alíquota efetiva: ${aliquotaEfetiva.toFixed(2)}%`;
+  output.innerHTML = `<b>Imposto a pagar será de:</b> R$ ${impostoDevido.toFixed(
+    2
+  )}<br>
+                        <b>Alíquota efetiva:</b> ${aliquotaEfetiva.toFixed(
+                          2
+                        )}%`;
 }

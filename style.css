@@ -1,0 +1,32 @@
+/* Marcos Filipe Capella - PPW - UNICAP */
+body {
+  background-color: #d4edda;
+}
+
+span {
+  color: gray;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-box {
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#output {
+  background-color: #ffccf2;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
